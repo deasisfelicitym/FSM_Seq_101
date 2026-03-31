@@ -12,13 +12,16 @@ Design Engineer:
 Date:
  31 Mar 2026
 ----------------------------------------------*/
-module seq_101(out,state,in,clk,rst_n);
+module seq_101(out,state,in,clk50,rst_n);
  //ports
  input in;
- input clk;
+ input clk50;
  input rst_n;
  output reg out;
  output reg [1:0] state;
+ 
+ // Clock 3s period
+ 
  
  //state assignment
  parameter [1:0] S0 = 2'b00;
