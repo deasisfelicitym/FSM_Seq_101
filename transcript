@@ -1,0 +1,27 @@
+# Reading pref.tcl
+# OpenFile C:/Users/LENOVO/Desktop/FSM_demo/FSM_Seq_101/testbench.v
+vlog -reportprogress 300 -work work C:/Users/LENOVO/Desktop/FSM_demo/FSM_Seq_101/testbench.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:59:49 on Apr 14,2026
+# vlog -reportprogress 300 -work work C:/Users/LENOVO/Desktop/FSM_demo/FSM_Seq_101/testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 09:59:49 on Apr 14,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 10:00:20 on Apr 14,2026
+# Loading work.testbench
+# Loading work.seq_101
+add wave -position end  sim:/testbench/in
+add wave -position end  sim:/testbench/clk
+add wave -position end  sim:/testbench/rst_n
+add wave -position end  sim:/testbench/out
+add wave -position end  sim:/testbench/state
+run
+run
+quit -sim
+# End time: 10:03:34 on Apr 14,2026, Elapsed time: 0:03:14
+# Errors: 0, Warnings: 0

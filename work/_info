@@ -33,25 +33,25 @@ r1
 Z4 o-work work
 Z5 tCvgOpt 0
 vtestbench
-!s110 1774927970
+!s110 1776131989
 !i10b 1
-!s100 `dCSoV@e6QFV9gi2kcCH`2
+!s100 H:UKbH34oNoXnJEb7fJ3P0
 R0
-IYknQS69VC;Pj^fTdRPg0P1
+ICE``G8aJW7NNl5GLjT8mR0
 R1
 R2
-w1774927968
+w1776131024
 8C:/Users/LENOVO/Desktop/FSM_demo/FSM_Seq_101/testbench.v
 FC:/Users/LENOVO/Desktop/FSM_demo/FSM_Seq_101/testbench.v
-!i122 2
-L0 2 32
+!i122 5
+L0 2 37
 R3
 r1
 !s85 0
 31
-!s108 1774927969.000000
+!s108 1776131989.000000
 !s107 C:/Users/LENOVO/Desktop/FSM_demo/FSM_Seq_101/testbench.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/LENOVO/Desktop/FSM_demo/FSM_Seq_101/testbench.v|
+!s90 -reportprogress|300|-work|work|C:/Users/LENOVO/Desktop/FSM_demo/FSM_Seq_101/testbench.v|
 !i113 1
 R4
 R5
